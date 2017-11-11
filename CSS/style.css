@@ -1,3 +1,4 @@
+/*utility*/
 *
 {
   margin: 0;
@@ -7,11 +8,9 @@
   height: auto;
   font-family:Helvetica,sans-serif;
 }
-
 body
 {
   background-color:#000000;
-
 }
 .clear
 {
@@ -27,7 +26,6 @@ body
   height:675px;
   float:left;
 }
-
 #one-piece-logo
 {
   margin-top:80px;
@@ -37,7 +35,6 @@ body
   clear:both;
   float:left;
 }
-
 #prologe
 {
    font-size:36px;
@@ -49,7 +46,6 @@ body
    margin-left:150px;
 
 }
-
 #object
 {
   margin-top:80px;
@@ -59,3 +55,4 @@ body
   clear:both;
   float:left;
 }
+/*index.html*/
