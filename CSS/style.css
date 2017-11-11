@@ -1,0 +1,61 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: auto;
+  height: auto;
+  font-family:Helvetica,sans-serif;
+}
+
+body
+{
+  background-color:#000000;
+
+}
+.clear
+{
+  clear:both;
+}
+
+/*index.html*/
+#two-years-ago
+{
+  margin-top:100px;
+  margin-left:150px;
+  width:1200px;
+  height:675px;
+  float:left;
+}
+
+#one-piece-logo
+{
+  margin-top:80px;
+  margin-left:550px;
+  width:400px;
+  height:137px;
+  clear:both;
+  float:left;
+}
+
+#prologe
+{
+   font-size:36px;
+   font-weight:bold;
+   color:white;
+   clear:both;
+   float:left;
+   margin-top:80px;
+   margin-left:150px;
+
+}
+
+#object
+{
+  margin-top:80px;
+  margin-left:439px;
+  width:622px;
+  height:348px;
+  clear:both;
+  float:left;
+}
