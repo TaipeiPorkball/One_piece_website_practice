@@ -18,17 +18,35 @@ body
 }
 
 /*index.html*/
-#two-years-ago
+#wide
 {
+  width:1200px;
+  height:800px;
+  float:left;
   margin-top:100px;
   margin-left:150px;
+}
+#two-years-ago
+{
+  position: absolute;
   width:1200px;
   height:675px;
   float:left;
+  z-index:1;
 }
+#live
+{
+  position: relative;
+  top:475px;
+  left:84px;
+  width:377px;
+  height:177px;
+  z-index:2;
+}
+/*上面是重疊圖片參考*/
+
 #Line
 {
-  margin-top:80px;
   margin-left:640px;
   font-size:50px;
   font-weight:bold;
@@ -45,7 +63,6 @@ body
    float:left;
    margin-top:50px;
    margin-left:150px;
-
 }
 #object
 {
