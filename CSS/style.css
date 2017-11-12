@@ -86,7 +86,7 @@ body
 }
 #strawhat
 {
-  background: url("../image/strawhat___one_piece_by_pcabreu.png");
+  background: url("../image/strawhat__active.png");
   position: absolute;
   width:600px;
   height:360px;
@@ -97,8 +97,14 @@ body
 }
 #strawhat:hover
 {
-  background: url("../image/strawhat__active.png");
+    background: url("../image/strawhat___one_piece_by_pcabreu.png");
 }
 
 
 /*index2.html*/
+#header-index
+{
+  background: url("../image/header.png");
+  width:1536px;
+  height:180px;
+}
