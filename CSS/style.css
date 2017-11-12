@@ -55,7 +55,6 @@ body
   background-repeat: no-repeat;
 }
 /*上面是重疊圖片、hover、active參考*/
-
 #Line
 {
   margin-left:640px;
@@ -101,10 +100,103 @@ body
 }
 
 
+
 /*index2.html*/
 #header-index
 {
   background: url("../image/header.png");
-  width:1536px;
-  height:180px;
+  width:1519px;
+  height:156px;
+  float: left;
 }
+
+#straw-pirate
+{
+  background: url("../image/straw_pirate.png");
+  position:absolute;
+  top:160px;
+  width:1519px;
+  height:449px;
+}
+#straw-pirate:hover
+{
+  background: url("../image/straw_pirate_active.png");
+}
+
+#shichibukai
+{
+  background: url("../image/shichibukai.png");
+  position: absolute;
+  top:611px;
+  width:377px;
+  height:213px;
+}
+#shichibukai:hover
+{
+  background: url("../image/shichibukai_active.png");
+}
+
+#marine
+{
+  background: url("../image/marine.png");
+  position: absolute;
+  left:380px;
+  top:611px;
+  width:378px;
+  height:213px;
+}
+#marine:hover
+{
+  background: url("../image/marine_active.png");
+}
+
+#yonko
+{
+  background: url("../image/yonko.png");
+  position: absolute;
+  left:760px;
+  top:611px;
+  width:378px;
+  height:213px;
+}
+#yonko:hover
+{
+  background: url("../image/yonko_active.png");
+}
+
+#revolutionnaires
+{
+  background: url("../image/revolutionnaires.png");
+  position: absolute;
+  left:1141px;
+  top:611px;
+  width:378px;
+  height:213px;
+}
+#revolutionnaires:hover
+{
+  background: url("../image/revolutionnaires_active.png");
+}
+
+.footer-one_piece
+{
+  position: absolute;
+  width:1519px;
+  height:60px;
+  top:828px;
+  opacity: 0.5;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color:white;
+  background-color: #CC0000
+}
+
+.footer-one_piece:hover
+{
+  opacity: 1.0;
+
+
+}
+
+/*straw-hat.html*/
