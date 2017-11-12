@@ -36,9 +36,9 @@ body
 }
 #live
 {
-  position: relative;
-  top:475px;
-  left:84px;
+  position: absolute;
+  top:575px;
+  left:234px;
   width:377px;
   height:177px;
   z-index:2;
