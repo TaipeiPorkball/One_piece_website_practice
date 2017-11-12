@@ -36,6 +36,7 @@ body
 }
 #live
 {
+  background: url("../image/button.jpg");
   position: absolute;
   top:575px;
   left:234px;
@@ -43,7 +44,17 @@ body
   height:177px;
   z-index:2;
 }
-/*上面是重疊圖片參考*/
+#live:hover
+{
+  background: url("../image/youtube.jpg");
+
+}
+#live:active
+{
+  background: url("../image/youtube_dark.png");
+  background-repeat: no-repeat;
+}
+/*上面是重疊圖片、hover、active參考*/
 
 #Line
 {
@@ -64,13 +75,30 @@ body
    margin-top:50px;
    margin-left:150px;
 }
-#object
+#rock
 {
-  margin-top:80px;
-  margin-left:439px;
-  width:622px;
-  height:348px;
-  clear:both;
+  margin-top:200px;
+  margin-left:570px;
+  width:400px;
+  height:250px;
+  clear: both;
   float:left;
 }
-/*index.html*/
+#strawhat
+{
+  background: url("../image/strawhat___one_piece_by_pcabreu.png");
+  position: absolute;
+  width:600px;
+  height:360px;
+  top:1800px;
+  left:450px;
+  clear: both;
+  float:left;
+}
+#strawhat:hover
+{
+  background: url("../image/strawhat__active.png");
+}
+
+
+/*index2.html*/
