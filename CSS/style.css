@@ -17,6 +17,101 @@ body
   clear:both;
 }
 
+.header-index
+{
+  background: url("../image/header.png");
+  width:1519px;
+  height:156px;
+  float: left;
+}
+
+.one-piece
+{
+  background: url("../image/One_Piece_Logo.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  width:400px;
+  height:137px;
+  position:absolute;
+  top:18px;
+  left:110px;
+}
+.one-piece:hover
+{
+  background: url("../image/One_Piece_Logo_active.png");
+  a
+}
+.author
+{
+  position:absolute;
+  background: url("../image/author-icon.png");
+  width:40px;
+  height:60px;
+  top:60px;
+  left:1130px;
+}
+.author:hover
+{
+  background: url("../image/author-icon_active.png");
+}
+.music
+{
+  position:absolute;
+  background: url("../image/music-icon.png");
+  width:51px;
+  height:60px;
+  top:60px;
+  left:1210px;
+}
+.music:hover
+{
+  background: url("../image/music-icon_active.png");
+}
+.movie
+{
+  position:absolute;
+  background: url("../image/movie-icon.png");
+  width:57px;
+  height:64px;
+  top:57px;
+  left:1300px;
+}
+.movie:hover
+{
+  background: url("../image/movie-icon_active.png");
+}
+
+.game
+{
+  position:absolute;
+  background: url("../image/game-icon.png");
+  width:51px;
+  height:60px;
+  top:60px;
+  left:1395px;
+}
+.game:hover
+{
+  background: url("../image/game-icon_active.png");
+}
+.footer-one_piece
+{
+  position: absolute;
+  width:1519px;
+  height:60px;
+  top:828px;
+  opacity: 0.5;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color:white;
+  background-color: #0000CC;
+}
+
+.footer-one_piece:hover
+{
+  opacity: 1.0;
+}
 /*index.html*/
 #wide
 {
@@ -54,11 +149,11 @@ body
   background: url("../image/youtube_dark.png");
   background-repeat: no-repeat;
 }
-/*上面是重疊圖片、hover、active參考*/
+/*重疊圖片、hover、active參考*/
 #Line
 {
-  margin-left:640px;
-  font-size:50px;
+  margin-left:605px;
+  font-size:70px;
   font-weight:bold;
   color:white;
   clear:both;
@@ -102,14 +197,6 @@ body
 
 
 /*index2.html*/
-#header-index
-{
-  background: url("../image/header.png");
-  width:1519px;
-  height:156px;
-  float: left;
-}
-
 #straw-pirate
 {
   background: url("../image/straw_pirate.png");
@@ -117,12 +204,25 @@ body
   top:160px;
   width:1519px;
   height:449px;
+  text-align: center;
+  font-size:60px;
+  font-weight: bold;
+  color:white;
+
 }
 #straw-pirate:hover
 {
   background: url("../image/straw_pirate_active.png");
 }
-
+#straw-pirate p
+{
+  visibility: hidden;
+}
+#straw-pirate:hover p
+{
+  visibility:visible;
+}
+/*-------------------------------------------*/
 #shichibukai
 {
   background: url("../image/shichibukai.png");
@@ -130,12 +230,25 @@ body
   top:611px;
   width:377px;
   height:213px;
+  text-align: center;
+  font-size:60px;
+  font-weight: bold;
+  color:white;
 }
+#shichibukai p
+{
+  visibility: hidden;
+}
+
 #shichibukai:hover
 {
   background: url("../image/shichibukai_active.png");
 }
-
+#shichibukai:hover p
+{
+  visibility:visible;
+}
+/*離開圖片，文字消失，移到身上出現 (圖片亦同)*/
 #marine
 {
   background: url("../image/marine.png");
@@ -144,6 +257,18 @@ body
   top:611px;
   width:378px;
   height:213px;
+  text-align: center;
+  font-size:60px;
+  font-weight: bold;
+  color:white;
+}
+#marine p
+{
+  visibility: hidden;
+}
+#marine:hover p
+{
+  visibility:visible;
 }
 #marine:hover
 {
@@ -158,12 +283,23 @@ body
   top:611px;
   width:378px;
   height:213px;
+  text-align: center;
+  font-size:60px;
+  font-weight: bold;
+  color:white;
 }
 #yonko:hover
 {
   background: url("../image/yonko_active.png");
 }
-
+#yonko p
+{
+  visibility: hidden;
+}
+#yonko:hover p
+{
+  visibility:visible;
+}
 #revolutionnaires
 {
   background: url("../image/revolutionnaires.png");
@@ -172,31 +308,175 @@ body
   top:611px;
   width:378px;
   height:213px;
+  text-align: center;
+  font-size:60px;
+  font-weight: bold;
+  color:white;
 }
 #revolutionnaires:hover
 {
   background: url("../image/revolutionnaires_active.png");
 }
+#revolutionnaires p
+{
+  visibility: hidden;
+}
+#revolutionnaires:hover p
+{
+  visibility:visible;
+}
 
-.footer-one_piece
+
+/*straw-pirate.html*/
+#luffy
+{
+  background: url("../image/wanted/luffy.png");
+  position: absolute;
+  left:180px;
+  top:230px;
+  width:204px;
+  height:300px;
+}
+#zoro
+{
+  background: url("../image/wanted/zoro.png");
+  position: absolute;
+  left:420px;
+  top:230px;
+  width:204px;
+  height:300px;
+}
+#usopp
+{
+  background: url("../image/wanted/usopp.png");
+  position: absolute;
+  left:660px;
+  top:230px;
+  width:204px;
+  height:300px;
+}
+#sanji
+{
+  background: url("../image/wanted/sanji.png");
+  position: absolute;
+  left:900px;
+  top:230px;
+  width:204px;
+  height:300px;
+}
+#robin
+{
+  background: url("../image/wanted/robin.png");
+  position: absolute;
+  left:1140px;
+  top:230px;
+  width:204px;
+  height:300px;
+}
+#franky
+{
+  background: url("../image/wanted/franky.png");
+  position: absolute;
+  left:300px;
+  top:560px;
+  width:204px;
+  height:300px;
+}
+#brook
+{
+  background: url("../image/wanted/brook.png");
+  position: absolute;
+  left:540px;
+  top:560px;
+  width:204px;
+  height:300px;
+}
+#nami
+{
+  background: url("../image/wanted/nami.png");
+  position: absolute;
+  left:780px;
+  top:560px;
+  width:204px;
+  height:300px;
+}
+#chopper
+{
+  background: url("../image/wanted/chopper.png");
+  position: absolute;
+  left:1020px;
+  top:560px;
+  width:204px;
+  height:300px;
+}
+#mugiwara
 {
   position: absolute;
-  width:1519px;
-  height:60px;
-  top:828px;
-  opacity: 0.5;
-  text-align: center;
-  font-size: 16px;
-  font-weight: bold;
+  top:920px;
+  left:600px;
+  font-size:70px;
+  font-weight:bold;
   color:white;
-  background-color: #CC0000
+  clear:both;
+  float:left;
 }
-
-.footer-one_piece:hover
+#intro-mugi
 {
-  opacity: 1.0;
-
-
+  position: absolute;
+  top:1050px;
+  left:180px;
+  width:1164px;
+  font-size:36px;
+  font-weight:bold;
+  color:white;
+  clear:both;
+  float:left;
 }
+/*shichibukai.html*/
 
-/*straw-hat.html*/
+/*marine.html*/
+
+/*yonko.html*/
+
+/*revolutionnaires.html*/
+
+/*author.html*/
+#author-special
+{
+  position:absolute;
+  background: url("../image/author-icon_active.png");
+  width:40px;
+  height:60px;
+  top:60px;
+  left:1130px;
+}
+/*music.html*/
+#music-special
+{
+  position:absolute;
+  background: url("../image/music-icon_active.png");
+  width:51px;
+  height:60px;
+  top:60px;
+  left:1210px;
+}
+/*movie.html*/
+#movie-special
+{
+  position:absolute;
+  background: url("../image/movie-icon_active.png");
+  width:57px;
+  height:64px;
+  top:57px;
+  left:1300px;
+}
+/*game.html*/
+#game-special
+{
+  position:absolute;
+  background: url("../image/game-icon_active.png");
+  width:51px;
+  height:60px;
+  top:60px;
+  left:1395px;
+}
