@@ -12,6 +12,7 @@ body
 {
   background-color:#000000;
 }
+
 .clear
 {
   clear:both;
@@ -152,7 +153,7 @@ body
 /*重疊圖片、hover、active參考*/
 #Line
 {
-  margin-left:605px;
+  margin-left:580px;
   font-size:70px;
   font-weight:bold;
   color:white;
@@ -208,7 +209,6 @@ body
   font-size:60px;
   font-weight: bold;
   color:white;
-
 }
 #straw-pirate:hover
 {
@@ -328,109 +328,834 @@ body
 
 
 /*straw-pirate.html*/
+#header-index_straw
+{
+  background: url("../image/header.png");
+  width:1519px;
+  height:156px;
+  float: left;
+}
+#top
+{
+  background: url("../image/up-arrow-2632512_1920.png");
+  position: fixed;
+  width:100px;
+  height:100px;
+  bottom:0;
+  right:0;
+  z-index: 100;
+}
 #luffy
 {
   background: url("../image/wanted/luffy.png");
   position: absolute;
   left:180px;
-  top:230px;
+  top:270px;
   width:204px;
   height:300px;
+}
+#luffy:hover
+{
+  background: url("../image/wanted/luffy_active.png");
 }
 #zoro
 {
   background: url("../image/wanted/zoro.png");
   position: absolute;
   left:420px;
-  top:230px;
+  top:270px;
   width:204px;
   height:300px;
+}
+#zoro:hover
+{
+  background: url("../image/wanted/zoro_active.png");
 }
 #usopp
 {
   background: url("../image/wanted/usopp.png");
   position: absolute;
   left:660px;
-  top:230px;
+  top:270px;
   width:204px;
   height:300px;
+}
+#usopp:hover
+{
+  background: url("../image/wanted/usopp_active.png");
 }
 #sanji
 {
   background: url("../image/wanted/sanji.png");
   position: absolute;
   left:900px;
-  top:230px;
+  top:270px;
   width:204px;
   height:300px;
+}
+#sanji:hover
+{
+  background: url("../image/wanted/sanji_active.png");
 }
 #robin
 {
   background: url("../image/wanted/robin.png");
   position: absolute;
   left:1140px;
-  top:230px;
+  top:270px;
   width:204px;
   height:300px;
+}
+#robin:hover
+{
+  background: url("../image/wanted/robin_active.png");
 }
 #franky
 {
   background: url("../image/wanted/franky.png");
   position: absolute;
-  left:300px;
-  top:560px;
+  left:180px;
+  top:600px;
   width:204px;
   height:300px;
+}
+#franky:hover
+{
+  background: url("../image/wanted/franky_active.png");
 }
 #brook
 {
   background: url("../image/wanted/brook.png");
   position: absolute;
-  left:540px;
-  top:560px;
+  left:420px;
+  top:600px;
   width:204px;
   height:300px;
+}
+#brook:hover
+{
+  background: url("../image/wanted/brook_active.png");
 }
 #nami
 {
   background: url("../image/wanted/nami.png");
   position: absolute;
-  left:780px;
-  top:560px;
+  left:660px;
+  top:600px;
   width:204px;
   height:300px;
+}
+#nami:hover
+{
+  background: url("../image/wanted/nami_active.png");
 }
 #chopper
 {
   background: url("../image/wanted/chopper.png");
   position: absolute;
-  left:1020px;
-  top:560px;
+  left:900px;
+  top:600px;
   width:204px;
   height:300px;
+}
+#chopper:hover
+{
+  background: url("../image/wanted/chopper_active.png");
+}
+#jinbe
+{
+  background: url("../image/wanted/jinbe.png");
+  position: absolute;
+  left:1140px;
+  top:600px;
+  width:204px;
+  height:300px;
+}
+#jinbe:hover
+{
+  background: url("../image/wanted/jinbe_active.png");
 }
 #mugiwara
 {
   position: absolute;
-  top:920px;
-  left:600px;
+  top:1050px;
+  left:580px;
   font-size:70px;
   font-weight:bold;
   color:white;
   clear:both;
   float:left;
 }
+#add-photo
+{
+  position: absolute;
+  left:150px;
+  top:1180px;
+  width:1200px;
+  height:650px;
+}
 #intro-mugi
 {
   position: absolute;
-  top:1050px;
-  left:180px;
+  top:1900px;
+  left:165px;
   width:1164px;
   font-size:36px;
   font-weight:bold;
   color:white;
   clear:both;
   float:left;
+}
+
+#mugiwara-member
+{
+  position: absolute;
+  top:2200px;
+  left:580px;
+  font-size:70px;
+  font-weight:bold;
+  color:white;
+  clear:both;
+  float:left;
+}
+
+/*-----------------------------------------------*/
+#luffy-frame
+{
+  position: absolute;
+  left:100px;
+  top:2350px;
+  width:1300px;
+  height:730px;
+  border:2px solid #FF3333;
+}
+#luffy-photo
+{
+  background: url("../image/strawhat/Luffy_dark.png");
+  position: absolute;
+  background-repeat: no-repeat;
+  left:150px;
+  top:2450px;
+  width:307px;
+  height:520px;
+  text-align: center;
+  font-size:40px;
+  font-weight: bold;
+  color:	#FF3333;
+}
+#luffy-photo:hover
+{
+  background: url("../image/strawhat/Luffy.png");
+  background-repeat: no-repeat;
+}
+#luffy-photo p
+{
+  visibility: hidden;
+}
+#luffy-photo:hover p
+{
+  visibility: visible;
+}
+
+#luffy-intro
+{
+  position: absolute;
+  top:2480px;
+  left:550px;
+  width:700px;
+  font-size:36px;
+  font-weight:bold;
+  color:white;
+}
+#luffy-intro:hover
+{
+  position: absolute;
+  top:2480px;
+  left:550px;
+  width:700px;
+  font-size:40px;
+  font-weight:bold;
+  color:#FF3333;
+}
+#luffy-words
+{
+  position: absolute;
+  top:2830px;
+  left:480px;
+  width:800px;
+  font-size:40px;
+  font-weight:bold;
+  text-align: center;
+  color:	#FF3333;
+}
+/*-----------------------------------------------*/
+#zoro-frame
+{
+  position: absolute;
+  left:100px;
+  top:3150px;
+  width:1300px;
+  height:730px;
+  border:2px solid #99FF99;
+}
+#zoro-photo
+{
+  background: url("../image/strawhat/Zoro_dark.png");
+  position: absolute;
+  background-repeat: no-repeat;
+  left:1050px;
+  top:3250px;
+  width:307px;
+  height:550px;
+  font-size:40px;
+  font-weight: bold;
+  color:#99FF99;
+}
+#zoro-photo:hover
+{
+  background: url("../image/strawhat/Zoro.png");
+  background-repeat: no-repeat;
+}
+#zoro-photo p
+{
+  visibility: hidden;
+}
+#zoro-photo:hover p
+{
+  visibility: visible;
+}
+
+#zoro-intro
+{
+  position: absolute;
+  top:3300px;
+  left:300px;
+  width:500px;
+  font-size:36px;
+  font-weight:bold;
+  color:white;
+}
+#zoro-intro:hover
+{
+  position: absolute;
+  top:3300px;
+  left:300px;
+  width:500px;
+  font-size:40px;
+  font-weight:bold;
+  color:#99FF99;
+}
+#zoro-words
+{
+  position: absolute;
+  top:3650px;
+  left:200px;
+  width:900px;
+  font-size:40px;
+  font-weight:bold;
+  text-align: center;
+  color:#99FF99;
+}
+/*------------------------------------------*/
+#usopp-frame
+{
+  position: absolute;
+  left:100px;
+  top:3950px;
+  width:1300px;
+  height:730px;
+  border:2px solid #FFA488;
+}
+#usopp-photo
+{
+  background: url("../image/strawhat/Usopp_dark.png");
+  position: absolute;
+  background-repeat: no-repeat;
+  left:150px;
+  top:4050px;
+  width:307px;
+  height:520px;
+  text-align: center;
+  font-size:40px;
+  font-weight: bold;
+  color:	#FFA488;
+}
+#usopp-photo:hover
+{
+  background: url("../image/strawhat/Usopp.png");
+  background-repeat: no-repeat;
+}
+#usopp-photo p
+{
+  visibility: hidden;
+}
+#usopp-photo:hover p
+{
+  visibility: visible;
+}
+
+#usopp-intro
+{
+  position: absolute;
+  top:4110px;
+  left:550px;
+  width:500px;
+  font-size:36px;
+  font-weight:bold;
+  color:white;
+}
+#usopp-intro:hover
+{
+  position: absolute;
+  top:4110px;
+  left:550px;
+  width:500px;
+  font-size:40px;
+  font-weight:bold;
+  color:#FFA488;
+}
+
+#usopp-words
+{
+  position: absolute;
+  top:4460px;
+  left:480px;
+  width:900px;
+  font-size:40px;
+  font-weight:bold;
+  text-align: center;
+  color:	#FFA488;
+}
+/*-----------------------------------------------*/
+#sanji-frame
+{
+  position: absolute;
+  left:100px;
+  top:4750px;
+  width:1300px;
+  height:730px;
+  border:2px solid #FFFF33;
+}
+#sanji-photo
+{
+  background: url("../image/strawhat/Sanji_dark.png");
+  position: absolute;
+  background-repeat: no-repeat;
+  left:1050px;
+  top:4850px;
+  width:307px;
+  height:520px;
+  font-size:40px;
+  font-weight: bold;
+  color:#FFFF33;
+}
+#sanji-photo:hover
+{
+  background: url("../image/strawhat/Sanji.png");
+  background-repeat: no-repeat;
+}
+#sanji-photo p
+{
+  visibility: hidden;
+}
+#sanji-photo:hover p
+{
+  visibility: visible;
+}
+
+#sanji-intro
+{
+  position: absolute;
+  top:4900px;
+  left:300px;
+  width:500px;
+  font-size:36px;
+  font-weight:bold;
+  color:white;
+}
+#sanji-intro:hover
+{
+  position: absolute;
+  top:4900px;
+  left:300px;
+  width:500px;
+  font-size:40px;
+  font-weight:bold;
+  color:#FFFF33;
+}
+#sanji-words
+{
+  position: absolute;
+  top:5250px;
+  left:150px;
+  width:900px;
+  font-size:40px;
+  font-weight:bold;
+  text-align: center;
+  color:#FFFF33;
+}
+/*------------------------------------------*/
+#robin-frame
+{
+  position: absolute;
+  left:100px;
+  top:5550px;
+  width:1300px;
+  height:730px;
+  border:2px solid #9955FF;
+}
+#robin-photo
+{
+  background: url("../image/strawhat/Robin_dark.png");
+  position: absolute;
+  background-repeat: no-repeat;
+  left:150px;
+  top:5650px;
+  width:307px;
+  height:550px;
+  text-align: center;
+  font-size:40px;
+  font-weight: bold;
+  color:	#9955FF;
+}
+#robin-photo:hover
+{
+  background: url("../image/strawhat/Robin.png");
+  background-repeat: no-repeat;
+}
+#robin-photo p
+{
+  visibility: hidden;
+}
+#robin-photo:hover p
+{
+  visibility: visible;
+}
+
+#robin-intro
+{
+  position: absolute;
+  top:5730px;
+  left:550px;
+  width:700px;
+  font-size:36px;
+  font-weight:bold;
+  color:white;
+}
+#robin-intro:hover
+{
+  position: absolute;
+  top:5730px;
+  left:550px;
+  width:700px;
+  font-size:40px;
+  font-weight:bold;
+  color:#9955FF;
+}
+#robin-words
+{
+  position: absolute;
+  top:6080px;
+  left:480px;
+  width:850px;
+  font-size:40px;
+  font-weight:bold;
+  text-align: center;
+  color:	#9955FF;
+}
+/*------------------------------------------*/
+#franky-frame
+{
+  position: absolute;
+  left:100px;
+  top:6350px;
+  width:1300px;
+  height:730px;
+  border:2px solid #00DDAA;
+}
+#franky-photo
+{
+  background: url("../image/strawhat/Franky_dark.png");
+  position: absolute;
+  background-repeat: no-repeat;
+  left:830px;
+  top:6450px;
+  width:527px;
+  height:520px;
+  font-size:40px;
+  font-weight: bold;
+  color:#00DDAA;
+}
+#franky-photo:hover
+{
+  background: url("../image/strawhat/Franky.png");
+  background-repeat: no-repeat;
+}
+
+#franky-photo p
+{
+  visibility: hidden;
+}
+#franky-photo:hover p
+{
+  visibility: visible;
+}
+
+#franky-intro
+{
+  position: absolute;
+  top:6500px;
+  left:300px;
+  width:500px;
+  font-size:36px;
+  font-weight:bold;
+  color:white;
+}
+#franky-intro:hover
+{
+  position: absolute;
+  top:6500px;
+  left:300px;
+  width:500px;
+  font-size:40px;
+  font-weight:bold;
+  color:#00DDAA;
+}
+#franky-words
+{
+  position: absolute;
+  top:6850px;
+  left:150px;
+  width:800px;
+  font-size:40px;
+  font-weight:bold;
+  text-align: center;
+  color:#00DDAA;
+}
+/*------------------------------------------*/
+#brook-frame
+{
+  position: absolute;
+  left:100px;
+  top:7150px;
+  width:1300px;
+  height:730px;
+  border:2px solid #AAAAAA;
+}
+#brook-photo
+{
+  background: url("../image/strawhat/Brook_dark.png");
+  position: absolute;
+  background-repeat: no-repeat;
+  left:150px;
+  top:7250px;
+  width:307px;
+  height:520px;
+  text-align: center;
+  font-size:40px;
+  font-weight: bold;
+  color:	#AAAAAA;
+}
+#brook-photo:hover
+{
+  background: url("../image/strawhat/Brook.png");
+  background-repeat: no-repeat;
+}
+#brook-photo p
+{
+  visibility: hidden;
+}
+#brook-photo:hover p
+{
+  visibility: visible;
+}
+
+#brook-intro
+{
+  position: absolute;
+  top:7310px;
+  left:550px;
+  width:700px;
+  font-size:36px;
+  font-weight:bold;
+  color:white;
+}
+#brook-intro:hover
+{
+  position: absolute;
+  top:7310px;
+  left:550px;
+  width:700px;
+  font-size:40px;
+  font-weight:bold;
+  color:#AAAAAA;
+}
+#brook-words
+{
+  position: absolute;
+  top:7680px;
+  left:480px;
+  width:800px;
+  font-size:40px;
+  font-weight:bold;
+  text-align: center;
+  color:	#AAAAAA;
+}
+/*------------------------------------------*/
+#nami-frame
+{
+  position: absolute;
+  left:100px;
+  top:7950px;
+  width:1300px;
+  height:730px;
+  border:2px solid #FF5511;;
+}
+
+#nami-photo
+{
+  background: url("../image/strawhat/Nami_dark.png");
+  position: absolute;
+  background-repeat: no-repeat;
+  left:1050px;
+  top:8050px;
+  width:307px;
+  height:520px;
+  font-size:40px;
+  font-weight: bold;
+  color:#FF5511;
+}
+#nami-photo p
+{
+  visibility: hidden;
+}
+#nami-photo:hover p
+{
+  visibility: visible;
+}
+#nami-photo:hover
+{
+  background: url("../image/strawhat/Nami.png");
+  background-repeat: no-repeat;
+}
+#nami-intro
+{
+  position: absolute;
+  top:8100px;
+  left:300px;
+  width:550px;
+  font-size:36px;
+  font-weight:bold;
+  color:white;
+}
+#nami-intro:hover
+{
+  position: absolute;
+  top:8100px;
+  left:300px;
+  width:600px;
+  font-size:40px;
+  font-weight:bold;
+  color:#FF5511;
+}
+#nami-words
+{
+  position: absolute;
+  top:8470px;
+  left:200px;
+  width:800px;
+  font-size:40px;
+  font-weight:bold;
+  text-align: center;
+  color:#FF5511;
+}
+/*------------------------------------------*/
+#chopper-frame
+{
+  position: absolute;
+  left:100px;
+  top:8750px;
+  width:1300px;
+  height:730px;
+  border:2px solid #FF44AA;
+}
+#chopper-photo
+{
+  background: url("../image/strawhat/Chopper_dark.png");
+  position: absolute;
+  background-repeat: no-repeat;
+  left:100px;
+  top:8850px;
+  width:452px;
+  height:520px;
+  text-align: center;
+  font-size:40px;
+  font-weight: bold;
+  color:	#FF44AA;
+}
+#chopper-photo p
+{
+  visibility: hidden;
+}
+#chopper-photo:hover
+{
+  background: url("../image/strawhat/Chopper.png");
+  background-repeat: no-repeat
+}
+#chopper-photo:hover p
+{
+  visibility: visible;
+}
+
+#chopper-intro
+{
+  position: absolute;
+  top:8930px;
+  left:620px;
+  width:700px;
+  font-size:36px;
+  font-weight:bold;
+  color:white;
+}
+#chopper-intro:hover
+{
+  position: absolute;
+  top:8930px;
+  left:620px;
+  width:800px;
+  font-size:40px;
+  font-weight:bold;
+  color:#FF44AA;
+}
+#chopper-words
+{
+  position: absolute;
+  top:9300px;
+  left:530px;
+  width:800px;
+  font-size:40px;
+  font-weight:bold;
+  text-align: center;
+  color:	#FF44AA;
+}
+/*------------------------------------------*/
+#footer-one_piece_straw
+{
+  position: absolute;
+  width:1519px;
+  height:60px;
+  top:9600px;
+  opacity: 0.5;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color:white;
+  background-color: #0000CC;
+}
+
+#footer-one_piece_straw:hover
+{
+  opacity: 1.0;
 }
 /*shichibukai.html*/
 
