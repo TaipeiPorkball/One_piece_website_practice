@@ -14,9 +14,9 @@
   top:160px;
   width:492px;
   height:666px;
+  line-height: 1.6;
   text-align: center;
   font-size:60px;
-  font-weight: bold;
   color:white;
 }
 #gold:hover
@@ -34,7 +34,7 @@
 }
 #Z
 {
-  background: url("../image/movie/Z-active.png");
+  background: url("../image/movie/Z.png");
   position:absolute;
   top:160px;
   left:494px;
@@ -42,13 +42,13 @@
   height:221px;
   text-align: center;
   font-size:60px;
-  font-weight: bold;
+  line-height: 1.2;
   color:white;
   background-position: center center;
 }
 #Z:hover
 {
-  background: url("../image/movie/Z.png");
+  background: url("../image/movie/Z-active.png");
   background-position: center center;
 }
 #Z p
@@ -61,7 +61,7 @@
 }
 #SW
 {
-  background: url("../image/movie/SW-active.png");
+  background: url("../image/movie/SW.png");
   position:absolute;
   top:382px;
   left:494px;
@@ -69,13 +69,13 @@
   height:221px;
   text-align: center;
   font-size:60px;
-  font-weight: bold;
+  line-height: 1.2;
   color:white;
   background-position: center center;
 }
 #SW:hover
 {
-  background: url("../image/movie/SW.png");
+  background: url("../image/movie/SW-active.png");
   background-position: center center;
 }
 #SW p
@@ -97,7 +97,7 @@
   height:221px;
   text-align: center;
   font-size:60px;
-  font-weight: bold;
+  line-height: 1.2;
   color:white;
   background-position: center center;
 }

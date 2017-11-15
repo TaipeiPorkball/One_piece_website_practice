@@ -210,6 +210,7 @@
 }
 #luffy-photo p
 {
+  line-height: 1.37;
   visibility: hidden;
 }
 #luffy-photo:hover p
@@ -269,6 +270,7 @@
 }
 #zoro-photo p
 {
+  line-height: 1.45;
   visibility: hidden;
 }
 #zoro-photo:hover p
@@ -389,6 +391,7 @@
 }
 #sanji-photo p
 {
+  line-height: 1.50;
   visibility: hidden;
 }
 #sanji-photo:hover p
@@ -449,6 +452,7 @@
 }
 #robin-photo p
 {
+  line-height: 1.56;
   visibility: hidden;
 }
 #robin-photo:hover p
@@ -509,6 +513,7 @@
 
 #franky-photo p
 {
+  line-height: 1.54;
   visibility: hidden;
 }
 #franky-photo:hover p
@@ -569,6 +574,7 @@
 }
 #brook-photo p
 {
+  line-height: 1.57;
   visibility: hidden;
 }
 #brook-photo:hover p
@@ -624,6 +630,7 @@
 }
 #nami-photo p
 {
+  line-height: 1.61;
   visibility: hidden;
 }
 #nami-photo:hover p
