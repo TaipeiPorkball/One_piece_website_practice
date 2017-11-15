@@ -1,0 +1,78 @@
+#marine-title
+{
+  position: absolute;
+  left:685px;
+  top:250px;
+  font-size:90px;
+  font-weight:bold;
+  color:white;
+}
+#marine-group
+{
+  width:1000px;
+  height:563px;
+  position: absolute;
+  left:248px;
+  top:420px;
+}
+#marine-content
+{
+  position: absolute;
+  width:1100px;
+  left:210px;
+  top:1050px;
+  font-size:36px;
+  font-weight:bold;
+  color:white;
+}
+#marine-title-2
+{
+  position: absolute;
+  left:555px;
+  top:1350px;
+  font-size:90px;
+  font-weight:bold;
+  color:white;
+}
+#marine-group-2
+{
+  width:1000px;
+  height:563px;
+  position: absolute;
+  left:248px;
+  top:1350px;
+}
+#marine-content-2
+{
+  position: absolute;
+  width:1100px;
+  left:210px;
+  top:1950px;
+  font-size:36px;
+  font-weight:bold;
+  color:white;
+  }
+  #header-index-marine
+  {
+    background: url("../image/header.png");
+    width:1519px;
+    height:156px;
+    float: left;
+  }
+  #footer-one_piece_marine
+  {
+  position: absolute;
+  width:1519px;
+  height:60px;
+  top:3200px;
+  opacity: 0.5;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color:white;
+  background-color: #99BBFF;
+  }
+  #footer-one_piece_marine:hover
+  {
+    opacity: 1.0;
+  }

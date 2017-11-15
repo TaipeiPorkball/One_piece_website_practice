@@ -1,0 +1,76 @@
+#game-special
+{
+  position:absolute;
+  background: url("../image/game-icon_active.png");
+  width:51px;
+  height:60px;
+  top:60px;
+  left:1395px;
+}
+#header-index-game
+{
+  background: url("../image/header-game.png");
+  width:1519px;
+  height:156px;
+  float: left;
+}
+#wushuang
+{
+  position:absolute;
+  background: url("../image/wushuang.png");
+  width:759px;
+  height:670px;
+  top:157px;
+  opacity: :0.5
+}
+#wushuang:hover
+{
+  background: url("../image/wushuang-active.png");
+}
+#BB
+{
+  position:absolute;
+  background: url("../image/BB.png");
+  width:759px;
+  height:670px;
+  top:157px;
+  left:760px;
+  opacity: :0.5
+}
+#BB:hover
+{
+  background: url("../image/BB-active.png");
+}
+#footer-one_piece-game
+{
+  position: absolute;
+  width:1519px;
+  height:60px;
+  top:828px;
+  opacity: 0.5;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color:white;
+  background-color:#FF8888;
+}
+
+#footer-one_piece-game:hover
+{
+  opacity: 1.0;
+}
+#one-piece-game
+{
+  background: url("../image/One_Piece_Logo-game.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  width:400px;
+  height:137px;
+  position:absolute;
+  top:18px;
+  left:110px;
+}
+#one-piece-game:hover
+{
+  background: url("../image/One_Piece_Logo-game_active.png");
+}

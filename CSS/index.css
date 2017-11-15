@@ -1,0 +1,80 @@
+#wide
+{
+  width:1200px;
+  height:800px;
+  float:left;
+  margin-top:100px;
+  margin-left:150px;
+}
+#two-years-ago
+{
+  position: absolute;
+  width:1200px;
+  height:675px;
+  float:left;
+  z-index:1;
+}
+#live
+{
+  background: url("../image/button.jpg");
+  position: absolute;
+  top:575px;
+  left:234px;
+  width:377px;
+  height:177px;
+  z-index:2;
+}
+#live:hover
+{
+  background: url("../image/youtube.jpg");
+
+}
+#live:active
+{
+  background: url("../image/youtube_dark.png");
+  background-repeat: no-repeat;
+}
+/*重疊圖片、hover、active參考*/
+#Line
+{
+  margin-left:580px;
+  font-size:70px;
+  font-weight:bold;
+  color:white;
+  clear:both;
+  float:left;
+}
+#prologe
+{
+   font-size:36px;
+   font-weight:bold;
+   color:white;
+   clear:both;
+   float:left;
+   margin-top:50px;
+   margin-left:150px;
+}
+#rock
+{
+  margin-top:200px;
+  margin-left:570px;
+  width:400px;
+  height:250px;
+  clear: both;
+  float:left;
+}
+#strawhat
+{
+  background: url("../image/strawhat__active.png");
+  position: absolute;
+  width:584px;
+  height:236px;
+  top:1850px;
+  left:450px;
+  clear: both;
+  float:left;
+}
+#strawhat:hover
+{
+    background: url("../image/strawhat___one_piece_by_pcabreu.png");
+}

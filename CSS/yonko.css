@@ -1,0 +1,447 @@
+#header-index-yonko
+{
+  background: url("../image/header.png");
+  width:1519px;
+  height:156px;
+  float: left;
+}
+#yonko-title
+{
+  position: absolute;
+  left:685px;
+  top:250px;
+  font-size:90px;
+  font-weight:bold;
+  color:white;
+
+}
+#yonko-group
+{
+  width:563px;
+  height:563px;
+  position: absolute;
+  left:478px;
+  top:420px;
+}
+#yonko-content
+{
+  position: absolute;
+  left:260px;
+  top:1050px;
+  font-size:36px;
+  font-weight:bold;
+  color:white;
+
+}
+#character-title
+{
+  position: absolute;
+  left:585px;
+  top:1500px;
+  font-size:90px;
+  font-weight:bold;
+  color:white;
+
+}
+
+#shanks
+{
+  background: url("../image/yonko/shanks.png");
+  position:absolute;
+  width:315px;
+  height:240px;
+  top:1700px;
+  left:180px;
+}
+
+#shanks:hover
+{
+  background: url("../image/yonko/shanks_dark.png");
+}
+#bigmom
+{
+  background: url("../image/yonko/bigmom.png");
+  position:absolute;
+  width:315px;
+  height:240px;
+  background-repeat: no-repeat;
+  top:1722px;
+  left:580px;
+}
+
+#bigmom:hover
+{
+  background: url("../image/yonko/bigmom_dark.png");
+  background-repeat: no-repeat;
+}
+
+#kaido
+{
+  background: url("../image/yonko/kaido.png");
+  position:absolute;
+  width:315px;
+  height:240px;
+  top:1700px;
+  left:980px;
+}
+
+#kaido:hover
+{
+  background: url("../image/yonko/kaido_dark.png");
+}
+
+#blackbeard
+{
+  background: url("../image/yonko/blackbeard.png");
+  position:absolute;
+  width:315px;
+  height:240px;
+  top:1995px;
+  left:380px;
+}
+
+#blackbeard:hover
+{
+  background: url("../image/yonko/blackbeard_dark.png");
+}
+
+#whitebeard
+{
+  background: url("../image/yonko/whitebeard.png");
+  position:absolute;
+  width:240px;
+  height:240px;
+  top:1995px;
+  left:850px;
+  background-repeat: no-repeat;
+}
+
+#whitebeard:hover
+{
+  background: url("../image/yonko/whitebeard_dark.png");
+  background-repeat: no-repeat;
+}
+/*--------------------------------------------------*/
+#crown-shanks
+{
+  background: url("../image/yonko/59e57842819a752083.png");
+  position:absolute;
+  width:100px;
+  height:82px;
+  top:2441px;
+  left:250px;
+}
+#shanks-frame
+{
+  position:absolute;
+  top:2400px;
+  left:150px;
+  width:1200px;
+  height:730px;
+}
+#shanks-photo
+{
+  background: url("../image/yonko/shanks-photo.png");
+  position:absolute;
+  width:423px;
+  height:600px;
+  top:2480px;
+  left:900px;
+  background-repeat: no-repeat;
+}
+#shanks-photo:hover
+{
+  background: url("../image/yonko/shanks-active.png");
+}
+
+#shanks-title
+{
+  position: absolute;
+  left:360px;
+  top:2450px;
+  font-size:60px;
+  font-weight:bold;
+  color:	white;
+}
+
+#shanks-title:hover
+{
+
+  color:	#FFCCCC;
+}
+#shanks-intro
+{
+  position: absolute;
+  left:240px;
+  top:2550px;
+  font-size:36px;
+  font-weight:bold;
+  color:white;
+}
+#shanks-intro:hover
+{
+  color:#FFCCCC;
+}
+/*--------------------------------------------------*/
+#crown-bigmom
+{
+  background: url("../image/yonko/59e57842819a752083.png");
+  position:absolute;
+  width:100px;
+  height:82px;
+  top:3240px;
+  left:220px;
+}
+#bigmom-frame
+{
+  position:absolute;
+  top:3200px;
+  left:150px;
+  width:1200px;
+  height:730px;
+}
+#bigmom-photo
+{
+  background: url("../image/yonko/bigmom-photo.png");
+  position:absolute;
+  width:423px;
+  height:600px;
+  top:3280px;
+  left:900px;
+  background-repeat: no-repeat;
+}
+#bigmom-photo:hover
+{
+  background: url("../image/yonko/bigmom-active.png");
+}
+
+#bigmom-title
+{
+  position: absolute;
+  left:325px;
+  top:3250px;
+  font-size:60px;
+  font-weight:bold;
+  color:	white;
+}
+
+#bigmom-title:hover
+{
+
+  color:	#CCDDFF;
+}
+#bigmom-intro
+{
+  position: absolute;
+  left:240px;
+  top:3350px;
+  font-size:36px;
+  font-weight:bold;
+  color:white;
+}
+#bigmom-intro:hover
+{
+  color:#CCDDFF;
+}
+/*--------------------------------------------------*/
+#crown-kaido
+{
+  background: url("../image/yonko/59e57842819a752083.png");
+  position:absolute;
+  width:100px;
+  height:82px;
+  top:4043px;
+  left:260px;
+}
+#kaido-frame
+{
+  position:absolute;
+  top:4000px;
+  left:150px;
+  width:1200px;
+  height:730px;
+}
+#kaido-photo
+{
+  background: url("../image/yonko/kaido-photo.png");
+  position:absolute;
+  width:423px;
+  height:600px;
+  top:4080px;
+  left:900px;
+  background-repeat: no-repeat;
+}
+#kaido-photo:hover
+{
+  background: url("../image/yonko/kaido-active.png");
+}
+
+#kaido-title
+{
+  position: absolute;
+  left:360px;
+  top:4050px;
+  font-size:60px;
+  font-weight:bold;
+  color:	white;
+}
+
+#kaido-title:hover
+{
+
+  color:	#CCFF99;
+}
+#kaido-intro
+{
+  position: absolute;
+  left:240px;
+  top:4150px;
+  font-size:36px;
+  font-weight:bold;
+  color:white;
+}
+#kaido-intro:hover
+{
+  color:#CCFF99;
+}
+/*--------------------------------------------------*/
+#up
+{
+  background: url("../image/yonko/shejiyeiconm3wixnhtitg.png");
+  position:absolute;
+  width:50px;
+  height:50px;
+  top:4863px;
+  left:290px;
+}
+#blackbeard-frame
+{
+  position:absolute;
+  top:4800px;
+  left:150px;
+  width:1200px;
+  height:730px;
+}
+#blackbeard-photo
+{
+  background: url("../image/yonko/blackbeard-photo.png");
+  position:absolute;
+  width:423px;
+  height:600px;
+  top:4880px;
+  left:900px;
+  background-repeat: no-repeat;
+}
+#blackbeard-photo:hover
+{
+  background: url("../image/yonko/blackbeard-active.png");
+}
+
+#blackbeard-title
+{
+  position: absolute;
+  left:360px;
+  top:4850px;
+  font-size:60px;
+  font-weight:bold;
+  color:	white;
+}
+
+#blackbeard-title:hover
+{
+
+  color:		#DDDDDD;
+}
+#blackbeard-intro
+{
+  position: absolute;
+  left:240px;
+  top:4950px;
+  font-size:36px;
+  font-weight:bold;
+  color:white;
+}
+#blackbeard-intro:hover
+{
+  color:	#DDDDDD;
+}
+/*--------------------------------------------------*/
+#down
+{
+  background: url("../image/yonko/762-arrow-down-double.png");
+  position:absolute;
+  width:50px;
+  height:50px;
+  top:5663px;
+  left:290px;
+}
+#whitebeard-frame
+{
+  position:absolute;
+  top:5600px;
+  left:150px;
+  width:1200px;
+  height:730px;
+}
+#whitebeard-photo
+{
+  background: url("../image/yonko/whitebeard-photo.png");
+  position:absolute;
+  width:423px;
+  height:600px;
+  top:5680px;
+  left:900px;
+  background-repeat: no-repeat;
+}
+#whitebeard-photo:hover
+{
+  background: url("../image/yonko/whitebeard-active.png");
+}
+
+#whitebeard-title
+{
+  position: absolute;
+  left:360px;
+  top:5650px;
+  font-size:60px;
+  font-weight:bold;
+  color:	white;
+}
+
+#whitebeard-title:hover
+{
+
+  color:	#AAFFEE;
+}
+#whitebeard-intro
+{
+  position: absolute;
+  left:240px;
+  top:5750px;
+  font-size:36px;
+  font-weight:bold;
+  color:white;
+}
+#whitebeard-intro:hover
+{
+  color:#AAFFEE;
+}
+/*---------------------------*/
+#footer-one_piece_yonko
+{
+position: absolute;
+width:1519px;
+height:60px;
+top:6500px;
+opacity: 0.5;
+text-align: center;
+font-size: 16px;
+font-weight: bold;
+color:white;
+background-color: #99BBFF;
+}
+
+#footer-one_piece_yonko:hover
+{
+opacity: 1.0;
+}

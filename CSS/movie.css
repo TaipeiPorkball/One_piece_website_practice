@@ -1,0 +1,116 @@
+#movie-special
+{
+  position:absolute;
+  background: url("../image/movie-icon_active.png");
+  width:57px;
+  height:64px;
+  top:57px;
+  left:1300px;
+}
+#gold
+{
+  background: url("../image/Movie/gold.png");
+  position:absolute;
+  top:160px;
+  width:492px;
+  height:666px;
+  text-align: center;
+  font-size:60px;
+  font-weight: bold;
+  color:white;
+}
+#gold:hover
+{
+  background: url("../image/Movie/gold-active.png");
+  background-position: center center;
+}
+#gold p
+{
+  visibility: hidden;
+}
+#gold:hover p
+{
+  visibility: visible;
+}
+#Z
+{
+  background: url("../image/Movie/Z-active.png");
+  position:absolute;
+  top:160px;
+  left:494px;
+  width:1025px;
+  height:221px;
+  text-align: center;
+  font-size:60px;
+  font-weight: bold;
+  color:white;
+  background-position: center center;
+}
+#Z:hover
+{
+  background: url("../image/Movie/Z.png");
+  background-position: center center;
+}
+#Z p
+{
+  visibility: hidden;
+}
+#Z:hover p
+{
+  visibility: visible;
+}
+#SW
+{
+  background: url("../image/Movie/SW-active.png");
+  position:absolute;
+  top:382px;
+  left:494px;
+  width:1025px;
+  height:221px;
+  text-align: center;
+  font-size:60px;
+  font-weight: bold;
+  color:white;
+  background-position: center center;
+}
+#SW:hover
+{
+  background: url("../image/Movie/SW.png");
+  background-position: center center;
+}
+#SW p
+{
+  visibility: hidden;
+}
+#SW:hover p
+{
+  visibility: visible;
+}
+
+#more-movie
+{
+  background: url("../image/Movie/more.png");
+  position:absolute;
+  left:494px;
+  top:606px;
+  width:1025px;
+  height:221px;
+  text-align: center;
+  font-size:60px;
+  font-weight: bold;
+  color:white;
+  background-position: center center;
+}
+#more-movie:hover
+{
+  background: url("../image/Movie/more-active.png");
+  background-position: center center;
+}
+#more-movie p
+{
+  visibility: hidden;
+}
+#more-movie:hover p
+{
+  visibility: visible;
+}

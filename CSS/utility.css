@@ -1,0 +1,140 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: auto;
+  height: auto;
+  font-family:Helvetica,sans-serif;
+}
+body
+{
+  background-color:#000000;
+  font-family:
+}
+.header-icon
+{
+  background: url("../image/up.png");
+  position: fixed;
+  width:100px;
+  height:100px;
+  bottom:0;
+  right:0;
+  z-index: 1000;
+}
+.top-icon
+{
+  background: url("../image/134224442.png");
+  position: fixed;
+  width:100px;
+  height:100px;
+  bottom:110px;
+  right:0;
+  z-index: 100;
+}
+.clear
+{
+  clear:both;
+}
+
+.header-index
+{
+  background: url("../image/header.png");
+  width:1519px;
+  height:156px;
+  float: left;
+}
+
+.one-piece
+{
+  background: url("../image/One_Piece_Logo.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  width:400px;
+  height:137px;
+  position:absolute;
+  top:18px;
+  left:110px;
+}
+.one-piece:hover
+{
+  background: url("../image/One_Piece_Logo_active.png");
+}
+.author
+{
+  position:absolute;
+  background: url("../image/author-icon.png");
+  width:40px;
+  height:60px;
+  top:60px;
+  left:1130px;
+}
+.author:hover
+{
+  background: url("../image/author-icon_active.png");
+}
+.music
+{
+  position:absolute;
+  background: url("../image/music-icon.png");
+  width:51px;
+  height:60px;
+  top:60px;
+  left:1210px;
+}
+.music:hover
+{
+  background: url("../image/music-icon_active.png");
+}
+.movie
+{
+  position:absolute;
+  background: url("../image/movie-icon.png");
+  width:57px;
+  height:64px;
+  top:57px;
+  left:1300px;
+}
+.movie:hover
+{
+  background: url("../image/movie-icon_active.png");
+}
+
+.game
+{
+  position:absolute;
+  background: url("../image/game-icon.png");
+  width:51px;
+  height:60px;
+  top:60px;
+  left:1395px;
+}
+.game:hover
+{
+  background: url("../image/game-icon_active.png");
+}
+.footer-one_piece
+{
+  position: absolute;
+  width:1519px;
+  height:60px;
+  top:828px;
+  opacity: 0.5;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color:white;
+  background-color:#99BBFF;
+}
+
+.footer-one_piece:hover
+{
+  opacity: 1.0;
+}
+
+.title
+{
+  font-size: 50px;
+  color:#FFC8B4;
+  font-weight:bold;
+}

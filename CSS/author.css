@@ -1,0 +1,68 @@
+#header-index-author
+{
+  background: url("../image/header.png");
+  width:1519px;
+  height:156px;
+  float: left;
+}
+#author-special
+{
+  position:absolute;
+  background: url("../image/author-icon_active.png");
+  width:40px;
+  height:60px;
+  top:60px;
+  left:1130px;
+}
+#author-title
+{
+  position: absolute;
+  left:485px;
+  top:630px;
+  font-size:90px;
+  font-weight:bold;
+  color:white;
+}
+#author-title:hover
+{
+  left:475px;
+  font-size:100px;
+  font-weight:bold;
+  color:#FFC8B4;
+}
+#author-photo
+{
+  position:absolute;
+  background: url("../image/20200000013920144728520009768_s.jpg");
+  width:200px;
+  height:250px;
+  top:270px;
+  left:640px;
+}
+#author-intro
+{
+  position: absolute;
+  left:150px;
+  top:850px;
+  width:1200px;
+  font-size:36px;
+  font-weight:bold;
+  color:white;
+}
+#footer-one_piece-author
+{
+  position: absolute;
+  width:1519px;
+  height:60px;
+  top:4000px;
+  opacity: 0.5;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color:white;
+  background-color:#99BBFF;
+}
+#footer-one_piece-author:hover
+{
+  opacity: 1.0;
+}

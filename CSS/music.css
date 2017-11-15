@@ -1,0 +1,79 @@
+#header-index-music
+{
+  background: url("../image/header.png");
+  width:1519px;
+  height:156px;
+  float: left;
+}
+#music-special
+{
+  position:absolute;
+  background: url("../image/music-icon_active.png");
+  width:51px;
+  height:60px;
+  top:60px;
+  left:1210px;
+}
+
+#music-photo
+{
+  position:absolute;
+  background: url("../image/0001553423.png");
+  width:842px;
+  height:1191px;
+  top:270px;
+  left:320px;
+}
+#music-intro
+{
+  position: absolute;
+  left:160px;
+  top:1550px;
+  width:1200px;
+  font-size:36px;
+  font-weight:bold;
+  color:white;
+}
+#music-video
+{
+  position: absolute;
+  left:145px;
+  top:2250px;
+  width:1300px;
+  font-size:36px;
+  font-weight:bold;
+  color:white;
+}
+#more-music
+{
+  position: absolute;
+  left:625px;
+  top:2470px;
+  font-size:50px;
+  font-weight:bold;
+  color:white;
+}
+#more-music:hover
+{
+  left:615px;
+  font-size:55px;
+  font-weight:bold;
+  color:#77FFEE;
+}
+#footer-one_piece-music
+{
+  position: absolute;
+  width:1519px;
+  height:60px;
+  top:2600px;
+  opacity: 0.5;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color:white;
+  background-color:#99BBFF;
+}
+#footer-one_piece-music:hover
+{
+  opacity: 1.0;
+}

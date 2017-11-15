@@ -1,0 +1,127 @@
+#straw-pirate
+{
+  background: url("../image/straw_pirate.png");
+  position:absolute;
+  top:160px;
+  width:1519px;
+  height:449px;
+  text-align: center;
+  font-size:60px;
+  font-weight: bold;
+  color:white;
+}
+#straw-pirate:hover
+{
+  background: url("../image/straw_pirate_active.png");
+}
+#straw-pirate p
+{
+  visibility: hidden;
+}
+#straw-pirate:hover p
+{
+  visibility:visible;
+}
+/*-------------------------------------------*/
+#shichibukai
+{
+  background: url("../image/shichibukai.png");
+  position: absolute;
+  top:611px;
+  width:377px;
+  height:213px;
+  text-align: center;
+  font-size:60px;
+  font-weight: bold;
+  color:white;
+}
+#shichibukai p
+{
+  visibility: hidden;
+}
+
+#shichibukai:hover
+{
+  background: url("../image/shichibukai_active.png");
+}
+#shichibukai:hover p
+{
+  visibility:visible;
+}
+/*離開圖片，文字消失，移到身上出現 (圖片亦同)*/
+#marine
+{
+  background: url("../image/marine.png");
+  position: absolute;
+  left:380px;
+  top:611px;
+  width:378px;
+  height:213px;
+  text-align: center;
+  font-size:60px;
+  font-weight: bold;
+  color:white;
+}
+#marine p
+{
+  visibility: hidden;
+}
+#marine:hover p
+{
+  visibility:visible;
+}
+#marine:hover
+{
+  background: url("../image/marine_active.png");
+}
+
+#yonko
+{
+  background: url("../image/yonko.png");
+  position: absolute;
+  left:760px;
+  top:611px;
+  width:378px;
+  height:213px;
+  text-align: center;
+  font-size:60px;
+  font-weight: bold;
+  color:white;
+}
+#yonko:hover
+{
+  background: url("../image/yonko_active.png");
+}
+#yonko p
+{
+  visibility: hidden;
+}
+#yonko:hover p
+{
+  visibility:visible;
+}
+#revolutionnaires
+{
+  background: url("../image/revolutionnaires.png");
+  position: absolute;
+  left:1141px;
+  top:611px;
+  width:378px;
+  height:213px;
+  text-align: center;
+  font-size:60px;
+  font-weight: bold;
+  color:white;
+}
+#revolutionnaires:hover
+{
+  background: url("../image/revolutionnaires_active.png");
+}
+#revolutionnaires p
+{
+  visibility: hidden;
+}
+#revolutionnaires:hover p
+{
+  visibility:visible;
+}
