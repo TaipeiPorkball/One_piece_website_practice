@@ -1,6 +1,6 @@
 #header-index-music
 {
-  background: url("../image/header.png");
+  background: url("../image/utility/header.png");
   width:1519px;
   height:156px;
   float: left;
@@ -8,7 +8,7 @@
 #music-special
 {
   position:absolute;
-  background: url("../image/music-icon_active.png");
+  background: url("../image/utility/music-icon_active.png");
   width:51px;
   height:60px;
   top:60px;
@@ -18,7 +18,7 @@
 #music-photo
 {
   position:absolute;
-  background: url("../image/0001553423.png");
+  background: url("../image/music/0001553423.png");
   width:842px;
   height:1191px;
   top:270px;

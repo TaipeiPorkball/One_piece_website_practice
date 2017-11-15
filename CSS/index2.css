@@ -1,6 +1,6 @@
 #straw-pirate
 {
-  background: url("../image/straw_pirate.png");
+  background: url("../image/true-index/straw_pirate.png");
   position:absolute;
   top:160px;
   width:1519px;
@@ -12,7 +12,7 @@
 }
 #straw-pirate:hover
 {
-  background: url("../image/straw_pirate_active.png");
+  background: url("../image/true-index/straw_pirate_active.png");
 }
 #straw-pirate p
 {
@@ -25,7 +25,7 @@
 /*-------------------------------------------*/
 #shichibukai
 {
-  background: url("../image/shichibukai.png");
+  background: url("../image/true-index/shichibukai.png");
   position: absolute;
   top:611px;
   width:377px;
@@ -42,7 +42,7 @@
 
 #shichibukai:hover
 {
-  background: url("../image/shichibukai_active.png");
+  background: url("../image/true-index/shichibukai_active.png");
 }
 #shichibukai:hover p
 {
@@ -51,7 +51,7 @@
 /*離開圖片，文字消失，移到身上出現 (圖片亦同)*/
 #marine
 {
-  background: url("../image/marine.png");
+  background: url("../image/true-index/marine.png");
   position: absolute;
   left:380px;
   top:611px;
@@ -72,12 +72,12 @@
 }
 #marine:hover
 {
-  background: url("../image/marine_active.png");
+  background: url("../image/true-index/marine_active.png");
 }
 
 #yonko
 {
-  background: url("../image/yonko.png");
+  background: url("../image/true-index/yonko.png");
   position: absolute;
   left:760px;
   top:611px;
@@ -90,7 +90,7 @@
 }
 #yonko:hover
 {
-  background: url("../image/yonko_active.png");
+  background: url("../image/true-index/yonko_active.png");
 }
 #yonko p
 {
@@ -102,7 +102,7 @@
 }
 #revolutionnaires
 {
-  background: url("../image/revolutionnaires.png");
+  background: url("../image/true-index/revolutionnaires.png");
   position: absolute;
   left:1141px;
   top:611px;
@@ -115,7 +115,7 @@
 }
 #revolutionnaires:hover
 {
-  background: url("../image/revolutionnaires_active.png");
+  background: url("../image/true-index/revolutionnaires_active.png");
 }
 #revolutionnaires p
 {

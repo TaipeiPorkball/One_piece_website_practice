@@ -14,7 +14,7 @@ body
 }
 .header-icon
 {
-  background: url("../image/up.png");
+  background: url("../image/utility/up.png");
   position: fixed;
   width:100px;
   height:100px;
@@ -24,7 +24,7 @@ body
 }
 .top-icon
 {
-  background: url("../image/134224442.png");
+  background: url("../image/utility/134224442.png");
   position: fixed;
   width:100px;
   height:100px;
@@ -39,7 +39,7 @@ body
 
 .header-index
 {
-  background: url("../image/header.png");
+  background: url("../image/utility/header.png");
   width:1519px;
   height:156px;
   float: left;
@@ -47,7 +47,7 @@ body
 
 .one-piece
 {
-  background: url("../image/One_Piece_Logo.png");
+  background: url("../image/utility/One_Piece_Logo.png");
   background-repeat: no-repeat;
   background-position: center center;
   width:400px;
@@ -58,12 +58,12 @@ body
 }
 .one-piece:hover
 {
-  background: url("../image/One_Piece_Logo_active.png");
+  background: url("../image/utility/One_Piece_Logo_active.png");
 }
 .author
 {
   position:absolute;
-  background: url("../image/author-icon.png");
+  background: url("../image/utility/author-icon.png");
   width:40px;
   height:60px;
   top:60px;
@@ -71,12 +71,12 @@ body
 }
 .author:hover
 {
-  background: url("../image/author-icon_active.png");
+  background: url("../image/utility/author-icon_active.png");
 }
 .music
 {
   position:absolute;
-  background: url("../image/music-icon.png");
+  background: url("../image/utility/music-icon.png");
   width:51px;
   height:60px;
   top:60px;
@@ -84,12 +84,12 @@ body
 }
 .music:hover
 {
-  background: url("../image/music-icon_active.png");
+  background: url("../image/utility/music-icon_active.png");
 }
 .movie
 {
   position:absolute;
-  background: url("../image/movie-icon.png");
+  background: url("../image/utility/movie-icon.png");
   width:57px;
   height:64px;
   top:57px;
@@ -97,13 +97,13 @@ body
 }
 .movie:hover
 {
-  background: url("../image/movie-icon_active.png");
+  background: url("../image/utility/movie-icon_active.png");
 }
 
 .game
 {
   position:absolute;
-  background: url("../image/game-icon.png");
+  background: url("../image/utility/game-icon.png");
   width:51px;
   height:60px;
   top:60px;
@@ -111,7 +111,7 @@ body
 }
 .game:hover
 {
-  background: url("../image/game-icon_active.png");
+  background: url("../image/utility/game-icon_active.png");
 }
 .footer-one_piece
 {

@@ -16,7 +16,7 @@
 }
 #live
 {
-  background: url("../image/button.jpg");
+  background: url("../image/fake-index/button.jpg");
   position: absolute;
   top:575px;
   left:234px;
@@ -26,12 +26,12 @@
 }
 #live:hover
 {
-  background: url("../image/youtube.jpg");
+  background: url("../image/fake-index/youtube.jpg");
 
 }
 #live:active
 {
-  background: url("../image/youtube_dark.png");
+  background: url("../image/fake-index/youtube_dark.png");
   background-repeat: no-repeat;
 }
 /*重疊圖片、hover、active參考*/
@@ -65,7 +65,7 @@
 }
 #strawhat
 {
-  background: url("../image/strawhat__active.png");
+  background: url("../image/fake-index/strawhat__active.png");
   position: absolute;
   width:584px;
   height:236px;
@@ -76,5 +76,5 @@
 }
 #strawhat:hover
 {
-    background: url("../image/strawhat___one_piece_by_pcabreu.png");
+    background: url("../image/fake-index/strawhat___one_piece_by_pcabreu.png");
 }
