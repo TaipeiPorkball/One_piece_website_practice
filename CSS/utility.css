@@ -1,3 +1,7 @@
+@font-face {
+  font-family: Yuan;
+  src: url("../font/GenJyuuGothic-Normal.ttf");
+}
 *
 {
   margin: 0;
@@ -5,7 +9,7 @@
   box-sizing: border-box;
   width: auto;
   height: auto;
-  font-family:Helvetica,sans-serif;
+  font-family:Yuan,sans-serif;
 }
 body
 {
@@ -117,13 +121,14 @@ body
 {
   position: absolute;
   width:1519px;
-  height:60px;
+  height:100px;
   top:828px;
   opacity: 0.5;
   text-align: center;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: bold;
   color:white;
+  line-height: 1.8;
   background-color:#99BBFF;
 }
 

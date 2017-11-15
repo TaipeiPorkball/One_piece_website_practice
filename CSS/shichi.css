@@ -630,19 +630,20 @@
    font-weight:bold;
    color:white;
  }
- 
+
  /*---------------------------------------------*/
  #footer-one_piece-shichi
  {
    position: absolute;
    width:1519px;
-   height:60px;
+   height:100px;
    top:10500px;
    opacity: 0.5;
    text-align: center;
-   font-size: 16px;
+   font-size: 20px;
    font-weight: bold;
    color:white;
+   line-height: 1.8;
    background-color:#99BBFF;
  }
 

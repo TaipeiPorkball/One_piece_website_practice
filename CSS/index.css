@@ -47,7 +47,6 @@
 #prologe
 {
    font-size:36px;
-   font-weight:bold;
    color:white;
    clear:both;
    float:left;
@@ -69,7 +68,7 @@
   position: absolute;
   width:584px;
   height:236px;
-  top:1850px;
+  top:2050px;
   left:450px;
   clear: both;
   float:left;

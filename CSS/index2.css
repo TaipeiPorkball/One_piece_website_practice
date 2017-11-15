@@ -37,6 +37,7 @@
 }
 #shichibukai p
 {
+  line-height: 1.2;
   visibility: hidden;
 }
 
@@ -64,10 +65,12 @@
 }
 #marine p
 {
+  line-height: 1.2;
   visibility: hidden;
 }
 #marine:hover p
 {
+  line-height: 1.2;
   visibility:visible;
 }
 #marine:hover
@@ -94,6 +97,7 @@
 }
 #yonko p
 {
+  line-height: 1.2;
   visibility: hidden;
 }
 #yonko:hover p
@@ -119,6 +123,7 @@
 }
 #revolutionnaires p
 {
+  line-height: 1.2;
   visibility: hidden;
 }
 #revolutionnaires:hover p
