@@ -164,11 +164,6 @@
   color:	white;
 }
 
-#shanks-title:hover
-{
-
-  color:	#FFCCCC;
-}
 #shanks-intro
 {
   position: absolute;
@@ -178,10 +173,7 @@
   font-weight:bold;
   color:white;
 }
-#shanks-intro:hover
-{
-  color:#FFCCCC;
-}
+
 /*--------------------------------------------------*/
 #crown-bigmom
 {
@@ -225,11 +217,6 @@
   color:	white;
 }
 
-#bigmom-title:hover
-{
-
-  color:	#CCDDFF;
-}
 #bigmom-intro
 {
   position: absolute;
@@ -239,10 +226,7 @@
   font-weight:bold;
   color:white;
 }
-#bigmom-intro:hover
-{
-  color:#CCDDFF;
-}
+#
 /*--------------------------------------------------*/
 #crown-kaido
 {
@@ -286,11 +270,6 @@
   color:	white;
 }
 
-#kaido-title:hover
-{
-
-  color:	#CCFF99;
-}
 #kaido-intro
 {
   position: absolute;
@@ -300,10 +279,7 @@
   font-weight:bold;
   color:white;
 }
-#kaido-intro:hover
-{
-  color:#CCFF99;
-}
+
 /*--------------------------------------------------*/
 #up
 {
@@ -347,11 +323,7 @@
   color:	white;
 }
 
-#blackbeard-title:hover
-{
-
-  color:		#DDDDDD;
-}
+#
 #blackbeard-intro
 {
   position: absolute;
@@ -361,10 +333,7 @@
   font-weight:bold;
   color:white;
 }
-#blackbeard-intro:hover
-{
-  color:	#DDDDDD;
-}
+
 /*--------------------------------------------------*/
 #down
 {
@@ -408,11 +377,6 @@
   color:	white;
 }
 
-#whitebeard-title:hover
-{
-
-  color:	#AAFFEE;
-}
 #whitebeard-intro
 {
   position: absolute;
@@ -422,10 +386,7 @@
   font-weight:bold;
   color:white;
 }
-#whitebeard-intro:hover
-{
-  color:#AAFFEE;
-}
+
 /*---------------------------*/
 #footer-one_piece_yonko
 {

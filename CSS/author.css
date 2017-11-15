@@ -23,13 +23,6 @@
   font-weight:bold;
   color:white;
 }
-#author-title:hover
-{
-  left:475px;
-  font-size:100px;
-  font-weight:bold;
-  color:#FFC8B4;
-}
 #author-photo
 {
   position:absolute;

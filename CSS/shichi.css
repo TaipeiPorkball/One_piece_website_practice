@@ -211,11 +211,6 @@
    color:	white;
  }
 
- #bear-title:hover
- {
-
-   color:	#FFC8B4;
- }
  #bear-intro
  {
    position: absolute;
@@ -225,10 +220,7 @@
    font-weight:bold;
    color:white;
  }
- #bear-intro:hover
- {
-   color:#FFC8B4;
- }
+
  /*---------------------------------------------------*/
  #jinbe-frame
  {
@@ -263,11 +255,7 @@
    color:	white;
  }
 
- #jinbe-title:hover
- {
 
-   color:	#CCEEFF;
- }
  #jinbe-intro
  {
    position: absolute;
@@ -276,10 +264,6 @@
    font-size:36px;
    font-weight:bold;
    color:white;
- }
- #jinbe-intro:hover
- {
-   color:#CCEEFF;
  }
  /*-------------------------------------------*/
  #clown-frame
@@ -316,11 +300,6 @@
    color:	white;
  }
 
- #clown-title:hover
- {
-
-   color:	#FF8888;
- }
  #clown-intro
  {
    position: absolute;
@@ -330,10 +309,7 @@
    font-weight:bold;
    color:white;
  }
- #clown-intro:hover
- {
-   color:#FF8888;
- }
+
  /*-------------------------------------------*/
  #mingo-frame
  {
@@ -369,11 +345,7 @@
    color:	white;
  }
 
- #mingo-title:hover
- {
 
-   color:	#FF8888;
- }
  #mingo-intro
  {
    position: absolute;
@@ -383,10 +355,7 @@
    font-weight:bold;
    color:white;
  }
- #mingo-intro:hover
- {
-   color:#FF8888;
- }
+
  /*-------------------------------------------*/
  #dinch-frame
  {
@@ -422,11 +391,6 @@
    color:	white;
  }
 
- #dinch-title:hover
- {
-
-   color:	#AAAAAA;
- }
  #dinch-intro
  {
    position: absolute;
@@ -436,10 +400,7 @@
    font-weight:bold;
    color:white;
  }
- #dinch-intro:hover
- {
-   color:#AAAAAA;
- }
+
  /*-------------------------------------------*/
  #boa-frame
  {
@@ -475,11 +436,7 @@
    color:	white;
  }
 
- #boa-title:hover
- {
 
-   color:	#FFB7DD;
- }
  #boa-intro
  {
    position: absolute;
@@ -489,10 +446,7 @@
    font-weight:bold;
    color:white;
  }
- #boa-intro:hover
- {
-   color:#FFB7DD;
- }
+
  /*-------------------------------------------*/
  #hawk-frame
  {
@@ -528,11 +482,7 @@
    color:	white;
  }
 
- #hawk-title:hover
- {
 
-   color:	#DDFF77;
- }
  #hawk-intro
  {
    position: absolute;
@@ -542,10 +492,7 @@
    font-weight:bold;
    color:white;
  }
- #hawk-intro:hover
- {
-   color:#DDFF77;
- }
+
  /*---------------------------------*/
  #law-frame
  {
@@ -581,11 +528,7 @@
    color:	white;
  }
 
- #law-title:hover
- {
 
-   color:	#FFFF77;
- }
  #law-intro
  {
    position: absolute;
@@ -595,10 +538,7 @@
    font-weight:bold;
    color:white;
  }
- #law-intro:hover
- {
-   color:#FFFF77;
- }
+
  /*---------------------------------*/
  #sand-frame
  {
@@ -634,11 +574,7 @@
    color:	white;
  }
 
- #sand-title:hover
- {
 
-   color:	#FFBB66;
- }
  #sand-intro
  {
    position: absolute;
@@ -648,10 +584,7 @@
    font-weight:bold;
    color:white;
  }
- #sand-intro:hover
- {
-   color:#FFBB66;
- }
+
  /*---------------------------------*/
  #shadow-frame
  {
@@ -687,11 +620,7 @@
    color:	white;
  }
 
- #shadow-title:hover
- {
 
-   color:	#E38EFF;
- }
  #shadow-intro
  {
    position: absolute;
@@ -701,10 +630,7 @@
    font-weight:bold;
    color:white;
  }
- #shadow-intro:hover
- {
-   color:#E38EFF;
- }
+ 
  /*---------------------------------------------*/
  #footer-one_piece-shichi
  {
