@@ -2,17 +2,18 @@
 {
   background: url("../image/true-index/straw_pirate.png");
   position:absolute;
-  top:160px;
-  width:1519px;
-  height:449px;
+  top:161px;
+  width:1199px;
+  left:160px;
+  height:354px;
   text-align: center;
   font-size:60px;
-  font-weight: bold;
   color:white;
 }
 #straw-pirate:hover
 {
-  background: url("../image/true-index/straw_pirate_active.png");
+  background: url("../image/true-index/straw_pirate-active.png");
+  background-position: center center;
 }
 #straw-pirate p
 {
@@ -27,23 +28,24 @@
 {
   background: url("../image/true-index/shichibukai.png");
   position: absolute;
-  top:611px;
-  width:377px;
-  height:213px;
+  top:519px;
+  left:160px;
+  width:296px;
+  height:166px;
   text-align: center;
   font-size:60px;
-  font-weight: bold;
   color:white;
 }
 #shichibukai p
 {
-  line-height: 1.2;
+  line-height: 0.9;
   visibility: hidden;
 }
 
 #shichibukai:hover
 {
-  background: url("../image/true-index/shichibukai_active.png");
+  background-position:center top;
+  background: url("../image/true-index/shichibukai-active.png");
 }
 #shichibukai:hover p
 {
@@ -54,50 +56,49 @@
 {
   background: url("../image/true-index/marine.png");
   position: absolute;
-  left:380px;
-  top:611px;
-  width:378px;
-  height:213px;
-  text-align: center;
+  left:461px;
+  top:519px;
+  width:296px;
+  height:166px;
+  text-align: center ;
   font-size:60px;
-  font-weight: bold;
   color:white;
 }
 #marine p
 {
-  line-height: 1.2;
+  line-height: 0.9;
   visibility: hidden;
 }
 #marine:hover p
 {
-  line-height: 1.2;
+
   visibility:visible;
 }
 #marine:hover
 {
-  background: url("../image/true-index/marine_active.png");
+  background-position:center top;
+  background: url("../image/true-index/marine-active.png");
 }
 
 #yonko
 {
   background: url("../image/true-index/yonko.png");
   position: absolute;
-  left:760px;
-  top:611px;
-  width:378px;
-  height:213px;
+  left:762px;
+  top:519px;
+  width:296px;
+  height:166px;
   text-align: center;
   font-size:60px;
-  font-weight: bold;
   color:white;
 }
 #yonko:hover
 {
-  background: url("../image/true-index/yonko_active.png");
+  background: url("../image/true-index/yonko-active.png");
 }
 #yonko p
 {
-  line-height: 1.2;
+  line-height: 0.9;
   visibility: hidden;
 }
 #yonko:hover p
@@ -108,22 +109,21 @@
 {
   background: url("../image/true-index/revolutionnaires.png");
   position: absolute;
-  left:1141px;
-  top:611px;
-  width:378px;
-  height:213px;
+  left:1063px;
+  top:519px;
+  width:296px;
+  height:166px;
   text-align: center;
   font-size:60px;
-  font-weight: bold;
   color:white;
 }
 #revolutionnaires:hover
 {
-  background: url("../image/true-index/revolutionnaires_active.png");
+  background: url("../image/true-index/revolutionnaires-active.png");
 }
 #revolutionnaires p
 {
-  line-height: 1.2;
+  line-height: 0.9;
   visibility: hidden;
 }
 #revolutionnaires:hover p

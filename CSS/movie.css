@@ -11,12 +11,13 @@
 {
   background: url("../image/movie/gold.png");
   position:absolute;
-  top:160px;
-  width:492px;
-  height:666px;
-  line-height: 1.6;
+  top:161px;
+  left:160px;
+  width:394px;
+  height:534px;
+  line-height: 1.47;
   text-align: center;
-  font-size:60px;
+  font-size:52px;
   color:white;
 }
 #gold:hover
@@ -36,13 +37,13 @@
 {
   background: url("../image/movie/Z.png");
   position:absolute;
-  top:160px;
-  left:494px;
-  width:1025px;
-  height:221px;
+  top:161px;
+  right:160px;
+  width:802px;
+  height:173px;
   text-align: center;
   font-size:60px;
-  line-height: 1.2;
+  line-height: 0.93;
   color:white;
   background-position: center center;
 }
@@ -63,13 +64,13 @@
 {
   background: url("../image/movie/SW.png");
   position:absolute;
-  top:382px;
-  left:494px;
-  width:1025px;
-  height:221px;
+  top:341.5px;
+  right:160px;
+  width:802px;
+  height:173px;
   text-align: center;
   font-size:60px;
-  line-height: 1.2;
+  line-height: 0.93;
   color:white;
   background-position: center center;
 }
@@ -91,13 +92,13 @@
 {
   background: url("../image/movie/more.png");
   position:absolute;
-  left:494px;
-  top:606px;
-  width:1025px;
-  height:221px;
+  right:160px;
+  top:522px;
+  width:802px;
+  height:173px;
   text-align: center;
   font-size:60px;
-  line-height: 1.2;
+  line-height: 0.93;
   color:white;
   background-position: center center;
 }
@@ -113,4 +114,18 @@
 #more-movie:hover p
 {
   visibility: visible;
+}
+#footer-one_piece-movie
+{
+  position: absolute;
+  width:1519px;
+  height:100px;
+  top:700px;
+  opacity: 1.0;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color:white;
+  line-height: 1.8;
+  background-color:#99BBFF;
 }

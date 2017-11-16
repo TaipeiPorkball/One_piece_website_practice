@@ -22,7 +22,6 @@
   left:210px;
   top:1050px;
   font-size:36px;
-  font-weight:bold;
   color:white;
 }
 #marine-title-2
@@ -49,7 +48,6 @@
   left:210px;
   top:1950px;
   font-size:36px;
-  font-weight:bold;
   color:white;
   }
   #header-index-marine
@@ -65,15 +63,11 @@
   width:1519px;
   height:100px;
   top:3400px;
-  opacity: 0.5;
+  opacity: 1.0;
   text-align: center;
   font-size: 20px;
   font-weight: bold;
   color:white;
   line-height: 1.8;
   background-color:#99BBFF;
-  }
-  #footer-one_piece_marine:hover
-  {
-    opacity: 1.0;
   }
