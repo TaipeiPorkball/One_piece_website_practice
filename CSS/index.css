@@ -1,35 +1,113 @@
 
-#fake-index
-{
-  position: absolute;
-  width:1200px;
-  height:800px;
-  float:left;
-  top:100px;
-  left:160px;
-}
-#fake-photo
-{
-  position: absolute;
-  width:1199px;
-  height:675px;
-  float:left;
-  z-index:1;
-}
 #grand-line
 {
   position: absolute;
-  top:900px;
+  top:100px;
   left:584.5px;
   font-size:70px;
   font-weight:bold;
   color:white;
-}
 
+}
+/*----------css fade-in----------*/
+@-webkit-keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  6.25%
+  {
+      opacity: 0.05;
+  }
+  12.5%
+  {
+      opacity: 0.1;
+  }
+  18.75%
+  {
+      opacity: 0.15;
+  }
+  25%
+  {
+    opacity: 0.2;
+  }
+  31.25%
+  {
+    opacity: 0.25;
+  }
+  37.5%
+  {
+      opacity: 0.3;
+  }
+  43.75%
+  {
+    opacity: 0.35;
+  }
+  50%
+  {
+    opacity: 0.4;
+  }
+  56.25%
+  {
+    opacity: 0.45;
+  }
+  62.5%
+  {
+      opacity: 0.5;
+  }
+  68.75%
+  {
+    opacity: 0.55;
+  }
+  75%
+  {
+    opacity: 0.6;
+  }
+  81.25%
+  {
+    opacity: 0.65;
+  }
+  87.5%
+  {
+      opacity: 0.7;
+  }
+  93.75%
+  {
+    opacity: 0.0.75;
+  }
+}
+#east-ocean-photo
+{
+  width:1099px;
+  height:687px;
+  margin-left: 134px;
+  margin-top:50px;
+  opacity: 0.8;
+  -webkit-animation-name: fadeInOut;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-duration:2s;
+  -webkit-animation-direction: alternate;
+}
+/*-------------------------------*/
+#alabasta-photo
+{
+  width:1099px;
+  height:424.66px;
+  margin-left: 134px;
+  margin-top:50px;
+  opacity: 0.8;
+}
+#skypeia-photo
+{
+  width:1099px;
+  height:640.78px;
+  margin-left: 134px;
+  margin-top:50px;
+  opacity: 0.8;
+}
 /*----------------javascript 時間軸範例------------------*/
 .cd-horizontal-timeline {
   position: absolute;
-  top:980px;
+  top:180px;
   width:1519px;
   opacity: 0;
   margin: 2em auto;
@@ -49,7 +127,7 @@
 .cd-horizontal-timeline .timeline {
   position: relative;
   height: 100px;
-  width: 1200px;
+  width: 1199px;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -295,7 +373,7 @@
   animation-direction: reverse;
 }
 .cd-horizontal-timeline .events-content li > * {
-  max-width: 1100px;
+  max-width: 1099px;
   margin: 0 auto;
 }
 .cd-horizontal-timeline .events-content h2 {

@@ -12,6 +12,11 @@
   font-family:Yuan,sans-serif;
   text-decoration: none;
 }
+html
+{
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
 body
 {
   background-color:#000000;
