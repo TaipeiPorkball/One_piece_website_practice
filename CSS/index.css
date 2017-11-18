@@ -6,7 +6,7 @@
   left:584.5px;
   font-size:70px;
   font-weight:bold;
-  color:white;
+  color:#FF8888;
 
 }
 /*----------css fade-in----------*/
@@ -75,10 +75,10 @@
     opacity: 0.0.75;
   }
 }
-#east-ocean-photo
+#east-blue-photo
 {
   width:1099px;
-  height:687px;
+  height:686.875px;
   margin-left: 134px;
   margin-top:50px;
   opacity: 0.8;
@@ -91,18 +91,92 @@
 #alabasta-photo
 {
   width:1099px;
-  height:424.66px;
+  height:789.47px;
+  margin-left: 134px;
+  margin-top:50px;
+  opacity: 0.7;
+}
+#skypiea-photo
+{
+  width:1099px;
+  height:824.25px;
   margin-left: 134px;
   margin-top:50px;
   opacity: 0.8;
 }
-#skypeia-photo
+#davy-photo
 {
   width:1099px;
-  height:640.78px;
+  height:618.18px;
   margin-left: 134px;
   margin-top:50px;
   opacity: 0.8;
+}
+
+#water-photo
+{
+  width:1099px;
+  height:618.18px;
+  margin-left: 134px;
+  margin-top:50px;
+  opacity: 0.6;
+}
+
+#lobby-photo
+{
+  width:1099px;
+  height:800.15px;
+  margin-left: 134px;
+  margin-top:50px;
+  opacity: 0.75;
+}
+#zoro-photo
+{
+  width:1099px;
+  height:618.18px;
+  margin-left: 134px;
+  margin-top:50px;
+  opacity: 0.75;
+}
+#supernova-photo
+{
+  width:1099px;
+  height:618.18px;
+  margin-left: 134px;
+  margin-top:50px;
+}
+#hancock-photo
+{
+  width:1099px;
+  height:618.18px;
+  margin-left: 134px;
+  margin-top:50px;
+  opacity: 0.9;
+  opacity: 0.75;
+}
+#down-photo
+{
+  width:1099px;
+  height:618.18px;
+  margin-left: 134px;
+  margin-top:50px;
+  opacity: 0.8;
+}
+#ace-photo
+{
+  width:1099px;
+  height:661.67px;
+  margin-left: 134px;
+  margin-top:50px;
+  opacity: 0.75;
+}
+#years-photo
+{
+  width:1099px;
+  height:824.456px;
+  margin-left: 134px;
+  margin-top:50px;
+  opacity: 0.75;
 }
 /*----------------javascript 時間軸範例------------------*/
 .cd-horizontal-timeline {
